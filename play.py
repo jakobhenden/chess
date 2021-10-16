@@ -2,19 +2,19 @@ from chess import AI
 import PySimpleGUI as sg
 import os
 
-blank = os.path.join('blank.png')
-bbishop = os.path.join('bbishop.png')
-wbishop = os.path.join('wbishop.png')
-bpawn = os.path.join('bpawn.png')
-wpawn = os.path.join('wpawn.png')
-bknight = os.path.join('bknight.png')
-wknight = os.path.join('wknight.png')
-brook = os.path.join('brook.png')
-wrook = os.path.join('wrook.png')
-bqueen = os.path.join('bqueen.png')
-wqueen = os.path.join('wqueen.png')
-bking = os.path.join('bking.png')
-wking = os.path.join('wking.png')
+blank = os.path.join('textures/blank.png')
+bbishop = os.path.join('textures/bbishop.png')
+wbishop = os.path.join('textures/wbishop.png')
+bpawn = os.path.join('textures/bpawn.png')
+wpawn = os.path.join('textures/wpawn.png')
+bknight = os.path.join('textures/bknight.png')
+wknight = os.path.join('textures/wknight.png')
+brook = os.path.join('textures/brook.png')
+wrook = os.path.join('textures/wrook.png')
+bqueen = os.path.join('textures/bqueen.png')
+wqueen = os.path.join('textures/wqueen.png')
+bking = os.path.join('textures/bking.png')
+wking = os.path.join('textures/wking.png')
 
 images = {'b': bbishop, 'B': wbishop, 'p': bpawn, 'P': wpawn, 'n': bknight, 'N': wknight,
           'r': brook, 'R': wrook, 'k': bking, 'K': wking, 'q': bqueen, 'Q': wqueen, '.': blank}
